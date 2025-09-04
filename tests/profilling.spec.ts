@@ -24,7 +24,7 @@ test('Navigate login Page', async ({ page }) => {
     await patientprofilenav.click();
     await page.waitForTimeout(10000);
    // await page.locator('[data-testid ="EditIcon"]').first().click();
-   await expect
+ //  await expect
     await page.locator('[data-testid ="EditIcon"]').nth(1).click();
    // TOASTER
     await page.locator("#submit-fab-button").click();
