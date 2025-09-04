@@ -31,5 +31,5 @@ test('Navigate login Page', async ({ page }) => {
    // await page.locator('MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-t0j').click();
     await page.locator('[class= "MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-t0j"]').first().click();
     await page.locator("#add_visit_id_896").click();
-   //  await expect (page.locator('[class="go3958317564"]')).toHaveText('Visit created successfully');
+     await expect (page.locator('[class="go3958317564"]')).toHaveText('Visit created successfully');
 })
